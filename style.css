@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background-image: url(/images/dave-hoefler-BmAz3Ot0CkQ-unsplash.jpg);
+ background-position: center;
+ min-height: 100vh;
+ background-size: 500px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1.0;
+}
+h1{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+.Profile-picture{
+  border-radius: 50%;
+}
+.profile{
+  margin-top: 50px;
+  padding: 30px;
+}
+h2{
+  padding: 10px;
+  text-align: center;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+#links ul li{
+  padding: 10px;
+  cursor: hover;
+}
